@@ -16,13 +16,16 @@ npm install
 
 ### What does it look like?
 
+[Imgur](https://i.imgur.com/YGSDQwG.gifv)
+
 <table>
   <tr>
-    <td>Let's make a re-usable component that has its own state, reacts to user-input and participates in the render-loop. (<a href="https://codesandbox.io/s/rrppl0y8l4?file=/src/App.js">live demo</a>).</td>
+    <td>Let's make a re-usable component that has its own state, reacts to user-input and participates in the render-loop. (<a href="https://codesandbox.io/s/space-game-i2160">live demo</a>).</td>
     <td>
       <a href="https://codesandbox.io/s/space-game-i2160">
-        <img src="https://i.imgur.com/BO01p1H.gif" /></td>
+        <img src="https://i.imgur.com/YGSDQwG.gifv" />
       </a>
+      </td>
   </tr>
 </table>
 
