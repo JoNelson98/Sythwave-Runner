@@ -26,7 +26,6 @@ create a branch to make changes on
 
 ```
 git co -b new_branch
-
 ```
 
 adds your code changes to be committed
