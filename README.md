@@ -14,13 +14,46 @@ remember to npm install the dependencies
 npm install
 ```
 
+### Git notes for Armond
+
+clone the repo
+
+```
+git clone [project url]
+```
+
+create a branch to make changes on
+
+```
+git co -b new_branch
+
+```
+
+adds your code changes to be committed
+
+```
+git add .
+```
+
+commit your changes (add a name to the change)
+
+```
+git commit -m "some new change"
+```
+
+push code to repo and make a pr then request me to review in the gui on github
+
+```
+git push
+```
+
 ### What does it look like?
 
 [Space Game](https://i.imgur.com/YGSDQwG.gifv)
 
 <table>
   <tr>
-    <td>Let's make a re-usable component that has its own state, reacts to user-input and participates in the render-loop. (<a href="https://codesandbox.io/s/space-game-i2160">live demo</a>).</td>
+    <td>This game is the precursor to the game idea use it as a reference. (<a href="https://codesandbox.io/s/space-game-i2160">live demo</a>).</td>
     <td>
       <a href="https://codesandbox.io/s/space-game-i2160">
         <img src="https://i.imgur.com/BO01p1Hm.gif" />
