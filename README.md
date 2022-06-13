@@ -6,7 +6,7 @@ This is a starfox like game using @react-three/fiber, three.js wrapper.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Installing
 
 remember to npm install the dependencies
 
@@ -14,52 +14,52 @@ remember to npm install the dependencies
 npm install
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
 ### What does it look like?
 
 <table>
   <tr>
     <td>Let's make a re-usable component that has its own state, reacts to user-input and participates in the render-loop. (<a href="https://codesandbox.io/s/rrppl0y8l4?file=/src/App.js">live demo</a>).</td>
     <td>
-      <a href="https://codesandbox.io/s/rrppl0y8l4">
-        <img src="https://i.imgur.com/sS4ArrZ.gif" /></td>
+      <a href="https://codesandbox.io/s/space-game-i2160">
+        <img src="https://i.imgur.com/BO01p1H.gif" /></td>
       </a>
   </tr>
 </table>
 
-### Break down into end to end tests
+# Documentation, tutorials, examples
 
-Explain what these tests test and why
+Visit [docs.pmnd.rs](https://docs.pmnd.rs/react-three-fiber)
 
-```
-Give an example
-```
+<a href="https://docs.pmnd.rs/react-three-fiber"><img src="/docs/preview.jpg"></a>
 
-### And coding style tests
+# Fundamentals
 
-Explain what these tests test and why
+You need to be versed in both React and Threejs before rushing into this. If you are unsure about React consult the official [React docs](https://reactjs.org/docs/getting-started.html), especially [the section about hooks](https://reactjs.org/docs/hooks-reference.html). As for Threejs, make sure you at least glance over the following links:
 
-```
-Give an example
-```
+1. Make sure you have a [basic grasp of Threejs](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene). Keep that site open.
+2. When you know what a scene is, a camera, mesh, geometry, material, fork the [demo above](https://github.com/pmndrs/react-three-fiber#what-does-it-look-like).
+3. [Look up](https://threejs.org/docs/index.html#api/en/objects/Mesh) the JSX elements that you see (mesh, ambientLight, etc), _all_ threejs exports are native to three-fiber.
+4. Try changing some values, scroll through our [API](https://docs.pmnd.rs/react-three-fiber/API) to see what the various settings and hooks do.
 
-## Contributing
+Some reading material:
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+- [Threejs-docs](https://threejs.org/docs)
+- [Threejs-examples](https://threejs.org/examples)
+- [Threejs-fundamentals](https://threejsfundamentals.org)
+- [Discover Threejs](https://discoverthreejs.com)
+- [Do's and don'ts](https://discoverthreejs.com/tips-and-tricks) for performance and best practices
+- [react-three-fiber alligator.io tutorial](https://alligator.io/react/react-with-threejs) by [@dghez\_](https://twitter.com/dghez_)
+
+# Ecosystem
+
+- [`@react-three/gltfjsx`](https://github.com/pmndrs/gltfjsx) &ndash; turns GLTFs into JSX components
+- [`@react-three/drei`](https://github.com/pmndrs/drei) &ndash; useful helpers for react-three-fiber
+- [`@react-three/postprocessing`](https://github.com/pmndrs/react-postprocessing) &ndash; post-processing effects
+- [`@react-three/flex`](https://github.com/pmndrs/react-three-flex) &ndash; flexbox for react-three-fiber
+- [`@react-three/xr`](https://github.com/pmndrs/react-xr) &ndash; VR/AR controllers and events
+- [`@react-three/cannon`](https://github.com/pmndrs/use-cannon) &ndash; physics based hooks
+- [`@react-three/a11y`](https://github.com/pmndrs/react-three-a11y) &ndash; real a11y for your scene
+- [`zustand`](https://github.com/pmndrs/zustand) &ndash; state management
+- [`react-spring`](https://github.com/pmndrs/react-spring) &ndash; a spring-physics-based animation library
+- [`react-use-gesture`](https://github.com/pmndrs/react-use-gesture) &ndash; mouse/touch gestures
+- [`leva`](https://github.com/pmndrs/leva) &ndash; create GUI controls in seconds
