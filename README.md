@@ -14,6 +14,12 @@ remember to npm install the dependencies after cloning the repo
 npm install
 ```
 
+run the project with
+
+```
+npm start
+```
+
 ### Git notes for Armond
 
 clone the repo
