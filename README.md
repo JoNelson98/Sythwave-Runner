@@ -23,7 +23,7 @@ npm install
     <td>Let's make a re-usable component that has its own state, reacts to user-input and participates in the render-loop. (<a href="https://codesandbox.io/s/space-game-i2160">live demo</a>).</td>
     <td>
       <a href="https://codesandbox.io/s/space-game-i2160">
-        <img src="https://i.imgur.com/BO01p1Hs.gif" />
+        <img src="https://i.imgur.com/BO01p1Hm.gif" />
       </a>
       </td>
   </tr>
