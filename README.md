@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-remember to npm install the dependencies
+remember to npm install the dependencies after cloning the repo
 
 ```
 npm install
